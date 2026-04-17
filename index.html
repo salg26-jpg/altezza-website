@@ -20,6 +20,47 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Altezza Elevated Interiors | Premium Drywall Los Angeles" />
   <meta name="twitter:description" content="Premium drywall installation and finishing across Los Angeles — Thousand Oaks to Laguna Niguel." />
+
+  <!-- LocalBusiness Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Altezza Elevated Interiors",
+    "url": "https://altezzainteriors.com",
+    "telephone": "+1-424-331-3661",
+    "description": "Premium drywall installation, finishing, and specialty plaster across the greater Los Angeles area.",
+    "image": "https://altezzainteriors.com/favicon.svg",
+    "priceRange": "$$",
+    "areaServed": [
+      { "@type": "City", "name": "Los Angeles" },
+      { "@type": "City", "name": "West Hollywood" },
+      { "@type": "City", "name": "Beverly Hills" },
+      { "@type": "City", "name": "Santa Monica" },
+      { "@type": "City", "name": "Malibu" },
+      { "@type": "City", "name": "Thousand Oaks" },
+      { "@type": "City", "name": "Long Beach" },
+      { "@type": "City", "name": "Irvine" },
+      { "@type": "City", "name": "Laguna Niguel" }
+    ],
+    "sameAs": [
+      "https://share.google/YB82zvem3HnTQ1qib"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Drywall & Plaster Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drywall Repair" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skim Coat Finishing" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Level 4 & Level 5 Finish" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roman Clay" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microcement" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Popcorn Ceiling Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "New Drywall Installation" } }
+      ]
+    }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
@@ -315,6 +356,13 @@
     .contact-inner { max-width: 660px; margin: 0 auto; }
     .contact-inner .section-sub { margin: 0 auto 2.5rem; max-width: none; text-align: center; }
     .contact-inner .section-rule { margin: 0 auto 1.6rem; }
+
+    #service-area { text-align: center; }
+    .map-inner { max-width: 900px; margin: 0 auto; }
+    .map-inner .section-sub { margin: 0 auto 2rem; max-width: none; text-align: center; }
+    .map-inner .section-rule { margin: 0 auto 1.6rem; }
+    .map-embed { margin-top: 1.5rem; }
+    .map-embed iframe { display: block; width: 100%; height: 400px; border: 1px solid var(--line, rgba(42,42,42,0.12)); }
     .contact-areas {
       display: flex; gap: 1rem; justify-content: center;
       flex-wrap: wrap; margin-bottom: 3rem;
@@ -590,6 +638,24 @@
 </section>
 
 <!-- ─── CONTACT ─────────────────────────────────────── -->
+
+<!-- ─── SERVICE AREA MAP ──────────────────────────────── -->
+<section id="service-area" aria-labelledby="map-title">
+  <div class="map-inner">
+    <p class="section-eyebrow reveal">Service Area</p>
+    <h2 class="section-title reveal" id="map-title">Greater Los Angeles Coverage</h2>
+    <div class="section-rule centered reveal" aria-hidden="true"></div>
+    <p class="section-sub reveal">From Thousand Oaks to Laguna Niguel &mdash; we serve the full LA metro and surrounding counties.</p>
+    <div class="map-embed reveal">
+      <iframe
+        title="Altezza Elevated Interiors service area"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d423283.4355535399!2d-118.35806460698717!3d34.02073049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
 <section id="contact" aria-labelledby="contact-title">
   <div class="contact-inner">
     <p class="section-eyebrow reveal">Get Started</p>
